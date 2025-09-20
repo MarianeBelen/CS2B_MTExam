@@ -8,8 +8,13 @@ function addToCart(product) {
 }
 //removes product to cart
 function removeFromCart(product) {
-    cart.splice(index, 1);
+  let index =cart.indexOf(product);
+  if (index !== -1){
+    cart.splice(index, 1);  //removes 1 item
   alert(product + " has been removed to your cart!");
+  }else{
+    alert(product + " not in cart")
+  }
   showCart();
 }
 
@@ -25,4 +30,5 @@ function showCart() {
     });
     alert(cartList);
   }
+
 }
