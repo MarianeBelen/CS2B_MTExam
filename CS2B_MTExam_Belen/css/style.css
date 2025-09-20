@@ -155,9 +155,24 @@ aside {
 }
 
 aside img {
-  border-radius: 50%;
+  aspect-ratio: 3/4;
+  border-radius: 400px;
+  object-fit: cover;
   margin-bottom: 10px;
   width: 200px;
+}
+
+/*map location*/
+.location {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.location img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid grey;
+  border-radius: 6px;
 }
 
 /* Footer */
@@ -169,3 +184,4 @@ footer {
   margin-top: 20px;
   border-radius: 6px 6px 0 0;
 }
+
