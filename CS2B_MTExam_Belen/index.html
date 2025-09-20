@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>ILOCOS SUR</title>
+    <!--Links to css file-->
+    <link rel="stylesheet" href="css/style.css" />
+    <!--Links to Js file-->
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <!--Header-->
+    <header>
+      <h1>Welcome to Ilocos Sur</h1>
+      <!--the two links for the two webpages-->
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="contactus.html">Contact Us</a>
+      </nav>
+    </header>
+    <hr>
+    <!--Hero Section-->
+    <section class="heroo">
+      <h2>Ilocos Sur Nature Beauties</h2>
+      <p><i><b>Tourist Spots, and Adventures in Ilocos <br>
+      Tara Naure Trip sa Ilocos~</b></i></p>
+    </section>
+    <hr>
+    <!--Nature Tourist Spots-->
+    <section>
+      <h3>Tourist Spots & Adventures</h3>
+
+      <!--class natures-->
+      <!--Aw-Asen Falls-->
+      <div class="natures">
+        <!--Putted Videos and image-->
+        <video src="assets/awasenfalls.mp4" autoplay muted loop width="320"></video>
+        <img src="assets/Awasen.png" alt="Aw-Asen Falls"/>
+        <h4>Aw-Asen Falls</h4>
+        <p>
+          This waterfall remains hidden in a valley in Sigay, Ilocos Sur. It is
+          so majestic that visitors cannot fail to marvel at its stunning
+          beauty.
+        </p>
+        <p>#aw-asenfalls #iloscossursigay #falls #natureadventures #hike</p>
+      </div>
+      <!--Skyline & Sakura Blossoms-->
+      <div class="natures">
+        <!--Putted Videos and image-->
+        <video src="assets/skylinequrino.mp4" autoplay muted loop width="320"></video>
+        <video src="assets/skyline.mp4" autoplay muted loop width="320"></video>
+        <img src="assets/sakurablossoms.jpg" alt="Sakura Blossoms">
+        <h4>Skyline & Sakura in Quirino Ilocos Sur</h4>
+        <p>Skyline also called <i>'Sea of Clouds'</i>famous in one Ilocos Sur
+        and one of the best destination. Mostly visited at 5:00 am by riders.
+        Going down a bit to skyline you will discover Quirino's Sakura Blossoms.</p>
+        <p>#quirinoilocossur #skylineviewdeck #sakuraquirino #seaofcloudilocos #natureadventures </p>
+      </div>
+      <!--Candon City Eco Park-->
+      <div class="natures">
+        <!--putted image-->
+        <img src="assets/ecopark2.webp" alt="Eco Park">
+        <h4>Candon  City Eco Park</h4>
+        <p>Peaceful nature park in Candon City, Ilocos Sur, with verdant foliage, picnic
+          grounds, and a serene atmosphere for families and travelers. It is a community 
+          site for recreation, leisure strolls, and activities, enhancing eco-tourism.</p>
+        <p>#candoncityilocossur #candonecopark #palacapacecoaprk #picnic #natureadventures </p>
+      </div>
+    </section>
+
+    <!--Local Products with add to cart and remove to cart-->
+    <section>
+        <h4>Local Products</h4>
+        <div class="products">
+          <!--Robusta Cofee of Sigay-->
+            <div class="product">
+                <img src="assets/robustacofeesigay.jpg" alt="Robusta Coffee">
+                <h5>Robusta Coffee ₱50</h5>
+                <p>Locally grown coffee variety known for its strong flavor, high caffeine content, 
+                and with bitter taste.</p>
+                <button onclick="addToCart('Robusta Coffee')">Add To Cart</button>
+                <button onclick="removeFromCart('Robusta Coffee')">Remove</button>
+            </div>
+            <hr>
+            <!--Tilapia of Sigay-->
+            <div class="product">
+                <img src="assets/TILAPIA.webp" alt="Tilapia">
+                <h5>Tilapia ₱200 per kilo</h5>
+                <p>Raised in small community ponds, tilapia provides a sustainable source of 
+                    fresh fish for families and local markets.</p>
+                 <button onclick="addToCart('Tilapia')">Add To Cart</button>
+                 <button onclick="removeFromCart('Tilapia')">Remove</button>
+            </div>
+            <hr>
+            <!--Balitaw Rice of Quirino-->
+            <div class="product">
+                <img src="assets/balitawquirino.webp" alt="Balitaw Rice">
+                <h5>Balitaw Rice ₱150 per kilo</h5>
+                <p>Traditional heirloom rice variety with a distinct dark purple to black color,
+                 chewy texture, and nutty flavor.</p>
+                 <button onclick="addToCart('Balitaw Rice')">Add To Cart</button>
+                 <button onclick="removeFromCart('Balitaw Rice')">Remove</button>
+            </div>
+            <hr>
+            <!--Bamboo Bags of Quirino-->
+            <div class="product">
+                <img src="assets/craftsquirino.webp" alt="Bamboo Bags">
+                <h5>Bamboo Bags ₱200-350</h5>
+                <p>Handcrafted eco-friendly bags made from woven bamboo strips, 
+                  showcasing the community's creativity and sustainable use of local materials.</p>
+                 <button onclick="addToCart('Bamboo Bag')">Add To Cart</button>
+                 <button onclick="removeFromCart('Bamboo Bag')">Remove</button>
+            </div>
+            <hr>
+            <!--Angaki Coffee Of Quirino-->
+            <div class="product">
+                <img src="assets/angaki.webp" alt="Angaki Coffee">
+                <h5>Angaki Coffee ₱50</h5>
+                <p>A coffee blend from Quirino, usually made from robusta beans, with a 
+                    bold aroma and rich taste</p>
+                     <button onclick="addToCart('Angaki Coffee')">Add To Cart</button>
+                     <button onclick="removeFromCart('Angaki Coffee')">Remove</button>
+            </div>
+            <hr>
+            <!--Dried Mango of Quirino-->
+            <div class="product">
+                <img src="assets/Dried-Mango.webp" alt="Dried Mangoes">
+                <h5>Dried Mangoes ₱50-80</h5>
+                <p>Sweet, chewy, and flavorful mango slices that are sun-dried or dehydrated,
+                     making them a popular pasalubong.</p>
+                     <button onclick="addToCart('Dried Mangoes')">Add To Cart</button>
+                     <button onclick="removeFromCart('Dried Mangoes')">Remove</button>
+            </div>
+            <hr>
+            <!--Coconut Handcrafts of Quirino-->
+            <div class="product">
+                <img src="assets/coconut.jpg" alt="Coconut HandCrafts">
+                <h5>Coconut HandCrafts ₱100-250</h5>
+                <p>Handmade souvenirs crafted from polished coconut shells, turned into bowls,
+                ladles, and decorative items.</p>
+                 <button onclick="addToCart('Coconut Crafts')">Add To Cart</button>
+                 <button onclick="removeFromCart('Coconut Crafts')">Remove</button>
+            </div>
+            <hr>
+            <!--Eco park Fresh Milk-->
+            <div class="product">
+                <img src="assets/ecomilk.jpg" alt="Eco Park Milk">
+                <h5>Eco Park Milk ₱25-50</h5>
+                <p>A new, locally made dairy item of Candon Eco Park, with a creamy 
+                  flavor and natural taste. It promotes sustainable agriculture and 
+                  rural livelihoods and provides tourists a healthy beverage</p>
+                 <button onclick="addToCart('Eco Park Milk')">Add To Cart</button>
+                 <button onclick="removeFromCart('Eco Park Milk')">Remove</button>
+            </div>
+            <hr>
+            <!--Kalamay of Candon-->
+            <div class="product">
+                <img src="assets/kalamay1.jpg" alt="Kalamay">
+                <h5>Kalamay ₱40-50</h5>
+                <p>A sweet sticky rice cake prepared with glutinous rice flour, 
+                  coconut milk, and sugar. Sold in banana leaves or plastic wrap. 
+                  Extremely popular pasalubong item.<p>
+                 <button onclick="addToCart('Kalamay')">Add To Cart</button>
+                 <button onclick="removeFromCart('Kalamay')">Remove</button>
+            </div>
+            <hr>
+            <!--Processed Tabbocco of Candon-->
+            <div class="product">
+                <img src="assets/tobbacco.jpg" alt="Tobbacco">
+                <h5>Tobbacco ₱150-500</h5>
+                <p>Candon is the premier tobacco-producing region. Leaves are 
+                  cured and treated ("flue-curing") for cigarette and other tobacco 
+                  products.</p>
+                 <button onclick="addToCart('Tobbacco')">Add To Cart</button>
+                 <button onclick="removeFromCart('Tobbacco')">Remove</button>
+            </div>
+            <hr>
+            <!--Chichacorn/Kornik in Candon-->
+            <div class="product">
+                <img src="assets/kornik.jpg" alt="Chichacorn / Kornik">
+                <h5>Chichacorn / Kornik ₱30-100</h5>
+                <p>Crunchy corn snack—deep-fried or popped corn bits, flavor-ed. 
+                  Favorite among locals and tourists.</p>
+                 <button onclick="addToCart('Chichacorn / Kornik')">Add To Cart</button>
+                 <button onclick="removeFromCart('Kornik')">Remove</button>
+            </div>
+            <hr>
+            <!--Putu/Sinambung in Candon-->
+            <div class="product">
+                <img src="assets/putobungbung.jpg" alt="Puto/Sinambung">
+                <h5>Puto/Sinambung ₱60-200</h5>
+                <p>A Candon City's traditional delicacy composed of glutinous rice, 
+                  coconut milk, and sugar, typically wrapped in banana leaves 
+                  and steamed. It is sweet, soft, and sticky in texture, thus a 
+                  popular local snack and pasalubong.</p>
+                 <button onclick="addToCart('Puto/Sinambung')">Add To Cart</button>
+                 <button onclick="removeFromCart('Puto')">Remove</button>
+            </div>
+            <hr>
+        </div>
+    </section>
+    <!--footer-->
+    <footer>
+        <p>Ilocos Sur Tourist Spots & Adventures</p>
+    </footer>
+  </body>
+</html>

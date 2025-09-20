@@ -1,0 +1,171 @@
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: rgb(2, 55, 2);
+  color: white;
+  padding: 0 10px;
+}
+
+/* Header */
+header {
+  background: rgb(54, 54, 108);
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+/*Navigation links*/
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/*style to the navigation when you put you arrow*/
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.heroo, .hero {
+  background-image: url("../assets/ilocossurm.webp");
+  color: black;
+  text-align: center;
+  padding: 30px 10px;
+  margin: 20px 0;
+  border-radius: 8px;
+  background-size: cover;  /*image fills*/
+  background-position: center;
+}
+
+.heroo h3, .hero h2 {
+  margin-bottom: 10px;
+}
+
+/* Sections */
+section {
+  margin: 20px 0;
+  padding: 10px;
+}
+
+/* Tourist spots / adventures */
+.natures {
+  border: 1px solid white;
+  padding: 10px;
+  margin-bottom: 20px;
+  background: white;
+  color:black;
+  border-radius: 6px;
+}
+
+.natures img, 
+.natures video {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+img {
+    width: 500px;
+}
+
+/* Products */
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+}
+
+.product {
+  border: 1px solid white;
+  color: black;
+  padding: 10px;
+  background: white;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.product img {
+  max-width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.product button {
+  background: rgb(4, 230, 110);
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.product button:hover {
+  background: rgb(7, 182, 7);
+}
+
+/* Contact Us Page */
+form input, 
+form textarea {
+  width: 80%;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+form button {
+  background: orange;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: orangered;
+}
+
+.contact section {
+  flex: 1;         
+}
+
+.contact {
+    display: flex;
+}
+
+/* Aside (contact info) */
+aside {
+  background: white;
+  width: 25%;
+  padding: 15px;
+  margin: 20px 0;
+  border: 4px solid rgb(54, 54, 108);
+  text-align: center;
+  color: black;
+  display: auto;
+}
+
+aside img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+  width: 200px;
+}
+
+/* Footer */
+footer {
+  background: rgb(54, 54, 108);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 6px 6px 0 0;
+}
